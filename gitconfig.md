@@ -1,7 +1,8 @@
 1. 注册github账号
 2. 配置ssh keys
-   > $ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
-
+   ```bash
+   $ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+   ```
    > Generating public/private rsa key pair.
    
    > Enter a file in which to save the key (/c/Users/you/.ssh/id_rsa):[Press enter]
