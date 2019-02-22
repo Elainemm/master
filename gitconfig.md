@@ -25,9 +25,9 @@
    打开~/.gitconfig文件，会发现多了一项:
 
    [credential]
-   
+
 　　helper = store
 
-   此时,再次push  输入用户名和密码,以后再次push即可免去输入用户名和密码
+   > 此时,再次push  输入用户名和密码,以后再次push即可免去输入用户名和密码
    （用户名密码是github注册时的账号密码（并非前面创建sshkey是的passphrase））
    
