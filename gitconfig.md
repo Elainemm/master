@@ -1,7 +1,7 @@
 1. 注册github账号
 2. 配置ssh keys
    > $ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
-   
+
    > Generating public/private rsa key pair.
    
    > Enter a file in which to save the key (/c/Users/you/.ssh/id_rsa):[Press enter]
@@ -23,7 +23,9 @@
    git config --global credential.helper store
 
    打开~/.gitconfig文件，会发现多了一项:
+
    [credential]
+   
 　　helper = store
 
    此时,再次push  输入用户名和密码,以后再次push即可免去输入用户名和密码
